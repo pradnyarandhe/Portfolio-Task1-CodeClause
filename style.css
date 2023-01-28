@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 50px 10%;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.heading {
+  text-align: center;
+  
+}
+.heading h2 {
+  font-size: 27px;
+  
+}
+ 
+header {
+ 
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 0.3px;
+  box-shadow: 
+				2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.navbar a {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.main p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header.shadow {
+  box-shadow: 0 0 4px rgb(14 55 54 );
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(53, 60, 186);
+  
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background-color: rgb(137, 140, 193);
+}
+
+
+.about-container {
+  color: #000;
+  align-items: center;
+  margin-top:30px;
+  
+  
+}
+ 
+
+.about-text p {
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.info span {
+  font-weight: 400;
+  margin-left: 20px;
+}
+.skill {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.graphbar-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+.graphbar-box h3,
+span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: hsla(260, 100%, 44%, 0.4);
+  border-radius: 8px;
+}
+.percent {
+  position: absolute;
+  height: 8px;
+  bottom: 0;
+  left: 0;
+  background:rgb(40, 29, 109);
+  border-radius: 8px;
+}
+.html {
+  width: 98%;
+}
+.css {
+  width: 90%;
+}
+.js {
+  width: 70%;
+}
+.jquery {
+  width: 60%;
+}
+
+.angular {
+  width: 50%;
+}
+
+
+
+.contact{
+  width: 800px;
+  
+}
+form{
+  
+  border-radius: 20px;
+
+}
+
+.footer{
+  padding-top: 25px;
+  padding-bottom:8px;
+  background-color: rgb(41, 38, 38);
+  color: #fff;
+}
+.head2{
+background-color: rgb(116, 112, 240);
+display: inline-block;
+padding-left: 15px;
+padding-top: 30px;
+padding-bottom:30px ;
+padding-right:15px ;
+}
+
